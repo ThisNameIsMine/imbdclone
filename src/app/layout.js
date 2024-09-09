@@ -2,6 +2,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/Header";
 import Providers from "./Providers";
+import NavBar from "@/components/NavBar";
 
 export const metadata = {
   title: "IMDb Clone Tutorial",
@@ -16,6 +17,7 @@ export default function RootLayout({ children }) {
           {/* Header */}
           <Header/>
           {/* Navbar */}
+          <NavBar/>
           {/* SearchBox */}
           {/* Main */}
 

@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="flex-grow max-w-6xl mx-auto space-y-4">
+    <div className="flex-grow max-w-6xl mx-auto space-y-4 p-4">
       <h1 className="text-2xl font-medium text-amber-600 ">About</h1>
       <p className="rounded-full shadow-md bg-slate-100 p-3">
         This is a clone of the IMDb website. It is built with Next.js and
