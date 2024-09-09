@@ -1,5 +1,5 @@
 {
-  "name": "imbdclonetutorial",
+  "name": "imdbclone",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "14.2.8",
+    "next": "14.2.9",
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^5.3.0"
