@@ -18,7 +18,7 @@ export default function Card({ result }) {
           placeholder="blur"
           blurDataURL="@/public/spiner.svg"
           alt="image is not available"
-        ></Image>
+        />
         <div className="p-2">
           <p className="line-clamp-2">{result.overview}</p>
           <h2 className="truncate text-lg font-bold">
